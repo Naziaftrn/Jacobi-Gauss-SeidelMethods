@@ -1,0 +1,134 @@
+/* styles.css */
+@font-face {
+  font-family: "Franklin Gothic";
+  src: url("/path/to/FranklinGothic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  /* background-color: #f9f9e0; */
+
+  margin: 0;
+  padding: 0;
+}
+#head {
+  max-width: 800px;
+  margin: -109px auto;
+  padding: 20px;
+  background-color: #ffd0d0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 800px;
+  margin: 150px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: -40px;
+}
+
+h1 {
+  font-family: Work Sans, sans-serif;
+  text-align: center;
+  color: #333;
+}
+p {
+  text-align: center;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section,
+.output-section {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.output-section {
+  margin-top: 40px;
+}
+
+#jacobi-output,
+#gauss-seidel-output {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+#jacobi-steps,
+#gauss-seidel-steps {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#jacobi-result,
+#gauss-seidel-result {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.equation-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equation-group label {
+  flex: 0 0 30px;
+  color: #555;
+}
+
+.equation-group input {
+  width: 60px;
+  padding: 5px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.equation-group span {
+  color: #333;
+}
